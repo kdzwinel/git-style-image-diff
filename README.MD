@@ -2,9 +2,9 @@
 
 One missing ad can cause two screenshots to be reported as completely different when using regular pixel-to-pixel diffing. This little experiment tries to do something a bit more sophisticated and compares images line by line using git-like diffing algorithm. It works pretty well for single column layouts, but fails in multi-column scenarios.
 
-![./demo.png]()
+![comparing two images using traditional diffing algo and git diffing algo](./demo.png)
 
-** ⚠️ This is a fun experimient, not something I'm planning to finish, or maintain ️⚠️ **
+**⚠️ This is a fun experimient, not something I'm planning to finish, or maintain ️⚠️**
 
 ## How to run it
 
