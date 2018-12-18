@@ -1,0 +1,16 @@
+{
+  "name": "git-style-image-diff",
+  "version": "1.0.0",
+  "description": "Diff images line by line using git-like diffing algorithm.",
+  "main": "main.js",
+  "dependencies": {
+    "diff": "^3.5.0",
+    "pngjs": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konrad Dzwinel <kdzwinel@gmail.com>",
+  "license": "MIT"
+}
