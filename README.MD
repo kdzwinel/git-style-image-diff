@@ -18,6 +18,10 @@ One missing ad can cause two screenshots to be reported as completely different 
 2. It's rather slow (I only added a fast path for identical pixels).
 3. As mentioned in the description, this works well only for single column layouts (which are not as popular as one may think). There are probably better, and more sophisticated, techniques of comparing website screenshots out there (let me know if you find one!).
 
+Other projects you may want to check out:
+- https://github.com/reg-viz/x-img-diff-js - structual information diffing
+- https://github.com/reg-viz/img-diff-js - traditional pixel-to-pixel diffing
+
 ## License
 
 MIT
